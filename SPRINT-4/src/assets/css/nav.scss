@@ -1,0 +1,26 @@
+#navHeader {
+    background-color: #fff !important;
+}
+
+#navHeader .container-fluid {
+    margin: 0 10%;
+}
+
+#navHeader .navbar-brand {
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    letter-spacing: .2em;
+}
+
+#navHeader #navbarNav li {
+    border: 1px solid #196273;
+    padding: 0 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#navHeader #navbarNav li:hover {
+    box-shadow: 0 0 10px #000;
+}
